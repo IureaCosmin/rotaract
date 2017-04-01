@@ -68,7 +68,10 @@ AppAsset::register($this);
                 <img src="images/partner1.png" alt="partner-name" class="resized">
                 <img src="images/partner2.png" alt="partner-name" class="resized">
                 <img src="images/partner3.png" alt="partner-name" class="resized">
+
+
             </div>
+
         </div>
     </div>
 </div>

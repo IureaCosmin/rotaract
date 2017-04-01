@@ -677,7 +677,14 @@ html, body {
     border-radius: 0;
     padding: 10px 30px;
     font-size: 2rem; }
-
+.parteneri-form {
+  margin-top: 100px; }
+.parteneri-form .btn-success {
+  background-color: rgba(217, 27, 92, 0.8);
+  border: none;
+  border-radius: 0;
+  padding: 10px 30px;
+  font-size: 2rem; }
 .go-top {
   position: fixed;
   bottom: 2em;

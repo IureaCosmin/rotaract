@@ -18,17 +18,21 @@ $(document).ready(function () {
     });
 
 
-    $(document).on('click', function (e) {
-        if ($(e.target).closest("#infoppl").length === 0) {
-            $("#infoppl").hide();
 
-            window.location.href = "index.php?r=people%2Findex";
-        }
-
-    });
     $('#goBack').click(function(){
         parent.history.back();
         return false;
     });
+    if ($("#infoppl").length > 0)
+    {
+        $(document).on('click', function (e) {
+            if ($(e.target).closest("#infoppl").length === 0) {
+                $("#infoppl").hide();
+
+                window.location.href = "index.php?r=people%2Findex";
+            }
+
+        });
+    }
 
 });
